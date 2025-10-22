@@ -5,7 +5,7 @@ Project Backend đơn giản để extract văn bản và bounding boxes từ �
 ## Cài đặt và chạy
 Tải source code về máy:
 ```sh
-  git clone https://github.com/VoHuan/OCR-EXTRACTOR-MINI.git
+  git clone https://github.com/VoHuan/ocr-extractor-mini.git
 ```
 
 # Run Frontend
