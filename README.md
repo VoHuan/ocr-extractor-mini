@@ -56,9 +56,5 @@ npm run dev
 - FILE Ảnh mẫu: [Docs/Image-test/invoice.png](Docs/Image-test/invoice.png)
 - FILE Json mẫu kết quả OCR: [Docs/invoice.png.json](Docs/invoice.png.json)
 
-## Video Demo
-- [Demo OCR Extractor Mini](Docs/ocr-extract-demo.mp4)
-<video controls width="640">
-  <source src="Docs/ocr-extract-demo.mp4" type="video/mp4">
-  Trình duyệt của bạn không hỗ trợ thẻ video.
-</video>
+## 📽️ Demo OCR Extractor
+[![Xem Video Demo](Docs/thumbnail.jpg)](https://drive.google.com/uc?export=preview&id=1tFCkf7PQbe_kV_4H8JDb97wrmmXUZyjx)
