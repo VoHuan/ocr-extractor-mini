@@ -57,4 +57,4 @@ npm run dev
 - FILE Json mẫu kết quả OCR: [Docs/invoice.png.json](Docs/invoice.png.json)
 
 ## 📽️ Demo OCR Extractor
-[![Xem Video Demo](Docs/thumbnail.jpg)](https://drive.google.com/uc?export=preview&id=1tFCkf7PQbe_kV_4H8JDb97wrmmXUZyjx)
+[![Xem Video Demo](Docs/thumbnail.jpg)](https://drive.google.com/file/d/1tFCkf7PQbe_kV_4H8JDb97wrmmXUZyjx/preview)
