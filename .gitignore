@@ -1,0 +1,11 @@
+# Node modules
+OCR-EXTRACTOR-MINI-FE/node_modules/
+OCR-EXTRACTOR-MINI-BE/ocr-extractor-mini-fe/node_modules/
+
+# Environment files
+*.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
