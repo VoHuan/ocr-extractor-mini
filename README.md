@@ -39,18 +39,18 @@ npm run dev
 ```
 
 
-### Important: Đảm bảo đã cài đặt [poppler-utils](http://blog.alivate.com.au/poppler-windows/) trên hệ thống để pdf-poppler hoạt động.
+### Important: Đảm bảo đã cài đặt [poppler-utils](https://github.com/oschwartz10612/poppler-windows/releases/) trên hệ thống windows để pdf-poppler hoạt động.
 
-Windows : Tải poppler cho Windows và thêm vào PATH.
-MacOS : `brew install poppler`
-Linux : `sudo apt-get install poppler-utils`
+- Windows : Tải poppler cho Windows và thêm vào PATH.
+- MacOS : `brew install poppler`
+- Linux : `sudo apt-get install poppler-utils`
 
 ## Cách hoạt động (tóm tắt)
--FE gửi file (ảnh/PDF) lên BE qua API `/upload`.
--BE lưu file tạm, nếu là PDF thì convert từng trang thành ảnh PNG/JPG.
--BE chạy OCR trên ảnh (hoặc từng trang ảnh của PDF) bằng Tesseract.js.
--BE trả về kết quả OCR (text, bounding boxes) cho FE.
--FE dùng kết quả để highlight từ khóa trong ảnh/PDF.
+- FE gửi file (ảnh/PDF) lên BE qua API `/upload`.
+- BE lưu file tạm, nếu là PDF thì convert từng trang thành ảnh PNG/JPG.
+- BE chạy OCR trên ảnh (hoặc từng trang ảnh của PDF) bằng Tesseract.js.
+- BE trả về kết quả OCR (text, bounding boxes) cho FE.
+- FE dùng kết quả để highlight từ khóa trong ảnh/PDF.
 
 ## Data mẫu để test:
 - FILE Ảnh mẫu: [Docs/Image-test/invoice.png](Docs/Image-test/invoice.png)
@@ -58,3 +58,7 @@ Linux : `sudo apt-get install poppler-utils`
 
 ## Video Demo
 - [Demo OCR Extractor Mini](Docs/ocr-extract-demo.mp4)
+<video controls width="640">
+  <source src="Docs/ocr-extract-demo.mp4" type="video/mp4">
+  Trình duyệt của bạn không hỗ trợ thẻ video.
+</video>
